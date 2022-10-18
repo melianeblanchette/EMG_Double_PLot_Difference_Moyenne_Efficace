@@ -5,7 +5,7 @@
 const int EMG1 = A2; // Pin pour le signal du EMG 2
 const int EMG2 = A4; // Pin pour le signal du EMG 3
 const int OutPut = 7;
-
+const int variableUtile = 1;
 
 //---------------- Variables pour utilisateur-------------
 
@@ -53,6 +53,7 @@ void setup() {
 
   Serial.begin(57600);
   pinMode(OutPut, OUTPUT);
+  
   
 }
 
